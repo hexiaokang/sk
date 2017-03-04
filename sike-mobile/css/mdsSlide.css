@@ -1,0 +1,71 @@
+/*reset*/
+*{
+    vertical-align: baselinebaseline;    
+    font-family: inherit;    
+    font-style: inherit;    
+    font-size: 100%;    
+    border: none;    
+    padding: 0;    
+    margin: 0; 
+}
+body {width:100%; font: 12px/1.5 Microsoft YaHei, SimSun, Verdana, Geneva, sans-serif;}
+ol, ul {    
+    list-style: none; 
+}
+fieldset, img { border:0; vertical-align:top; }
+a { color:#000; text-decoration:none; cursor:pointer; outline: none;}
+a img, :link img, :visited img {   
+       border:0px; 
+       text-decoration: none;
+       vertical-align: middle;   
+}
+
+/*必备样式*/
+    /*兼容IE必要 如果不考虑兼容IE9以下或者不做半透明层可不要*/
+    .opacity_low{
+        opacity: 0.5;
+        filter:Alpha(opacity=50); 
+        -moz-opacity: 0.5;
+        -webkit-opacity: 0.5;
+        -khtml-opacity: 0.5;
+    }
+    .opacity_light{
+        opacity: 1;
+        filter:Alpha(opacity=100); 
+        -moz-opacity: 1;
+        -webkit-opacity: 1;
+        -khtml-opacity: 1;  
+    }
+    /*end*/
+    /*可自定义 按钮样式*/
+    .slideBtn{
+        top: 45%;
+        color: #000;
+    }
+    .prev{
+        left: -50px;
+    }
+    .next{
+        right: -50px;
+    }
+    /*当前轮播导航小圆点，可自定义样式*/
+    .page li.on{
+        color: red;
+    }
+    .page li{
+        width: 20px;
+    }
+
+/*必备样式*/
+.wrap{
+	width: 100%;
+	margin: 150px auto;
+	min-height: 800px;
+}
+#MdsSlide{margin:0px auto;}
+.slidebox{
+	width: 60%;
+	margin: 0px auto;
+}
+.list{margin-left:-38%;}
+.list li{margin:0px 10px;}

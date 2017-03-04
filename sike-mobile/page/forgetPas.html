@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>思科-移动端</title>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <script src="../js/jQuery-2.1.4.min.js"></script>
+</head>
+<body class="login_body">
+<div class="logo">
+    <input type="file" id="cam"/><label for="cam" class="upHeader"><img src="../img/signUp-camrea.png" alt=""/></label>
+    <img src="../img/login-logo.png" alt="logo"/>
+</div>
+<div class="login_sign forget_container">
+    <ul class="forget">
+        <li>忘记密码</li>
+    </ul>
+    <!--找回第一步-->
+    <form class="signUp_form" action="">
+        <div class="name"><img src="../img/signup-smartphone@2x.png" alt=""/>
+            <select name="" id="">
+                <option value="+86">+86</option>
+                <option value="+81">+81</option>
+            </select>
+            <input type="text" placeholder="手机"/></div>
+        <div class="password"><img src="../img/signup-123@2x.png" alt=""/><input type="text" placeholder="验证码"/><button class="getCode">获取验证码</button></div>
+        <div class="warn_message"></div>
+        <div><input type="submit" value="下一步"/></div>
+    </form>
+    <!--找回第二步-->
+    <form class="login_form" style="display: none" action="">
+        <div class="password"><img src="../img/login-password.png" alt=""/><input type="password" placeholder="请输入新密码"/><img src="../img/login-eye.png" alt=""/></div>
+        <div class="warn_message"></div>
+        <div><input type="submit" value="完成"/></div>
+    </form>
+</div>
+
+<script>
+    /*$('.name input,.password input').focus(function(){
+     $(this).parent().css('borderColor','white');
+     $(this).css('color','white');
+     $(this).next().show();
+     }).blur(function(){
+     $(this).parent().css('borderColor','#39C8FF');
+     $(this).css('color','white');
+     $(this).next().hide();
+
+     });
+     $('.password input').blur(function(){
+     var pas=$(this).val();
+     if(pas.length<6){
+     $('.warn_message').html('<img src="../img/login-warning.png"/><span>密码少于6位！</span>');
+     }else{
+     $('.warn_message').empty();
+     }
+     });*/
+</script>
+</body>
+</html>
