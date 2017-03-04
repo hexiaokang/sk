@@ -1,0 +1,259 @@
+*{
+    font-family: "Microsoft YaHei";
+    color: black;
+    margin: 0px;
+    ul{
+        list-style: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.base{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    //min-width: 1260px;
+}
+.list_body{
+    background-color: #F7F9FC;
+}
+.list_three_video{
+    .route_nav{
+        padding-left: 17%;
+        margin-top: 30px;
+        a{
+            color: #7399BC;
+        }
+    }
+    ul{
+        margin: 0px auto;
+        width: 85%;
+        margin-top: 20px;
+        li{
+            display: inline-block;
+            text-align: center;
+            width: 33%;
+        }
+    }
+}
+.list_product{
+    width: 75%;
+    margin: 0px auto;
+    //margin-top: 15%;
+    padding-bottom: 2%;
+    position: relative;
+    background: white;
+    padding-top: 10px;
+    .screen_array{
+        position: relative;
+        margin-top: 15px;
+        padding: 0px 5%;
+        .array_way{
+            float: right;
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+    .product_container{
+        //height: 725px;
+        margin: 0px auto;
+        margin-top: 20px;
+        position: relative;
+        .view_thumbani_ul{
+            li{
+                text-align: center;
+                padding: 1%;
+                padding-bottom: 0px;
+                margin-left: 2.5%;
+                display: inline-block;
+                width: 30%;
+                border: 1px solid #bcbbc1;
+                margin-bottom: 2.5%;
+                div{
+                    span{
+                        color: #EF4D38;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .view_list_ul{
+            li{
+                margin-top: 17px;
+                .product_description{
+                    float: right;
+                    width: 66%;
+                    div{
+                        margin-top: 15px;
+                    }
+                    .product_name{
+                        color: #2b3e4f;
+                        font-size: 18px;
+                        letter-spacing: 1.8px;
+                    }
+                    .userNum{
+                        font-size: 14px;
+                        color: #bcbbc1;
+                        margin-left: 15px;
+                    }
+                    .price{
+                        span{
+                            color: red;
+                            font-size: 18px;
+                        }
+                    }
+                    .product_message{
+                        font-size: 14px;
+                        color: #2b3e4f;
+                    }
+                    .service_company{
+                        color: #49acff;
+                        font-size: 14px;
+                    }
+                    .add{
+                        margin-top: 7%;
+                        a{
+                            padding: 5px 14px;
+                            color: #bcbbc1;
+                            border-radius: 19.5px;
+                            border: solid 1px #bcbbc1;
+                        }
+                        a:nth-child(2){
+                            margin-left: 30px;
+                            &:hover{
+                                background: #F15642;
+                                color: white;
+                                border: solid 1px transparent;
+                            }
+                        }
+                        a:nth-child(1){
+                            &:hover{
+                                background: #49acff;
+                                color: white;
+                                border: solid 1px transparent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .product_navb{
+        position: absolute;
+        top: 9%;
+        left: -11%;
+        ul{
+            li{
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+            }
+        }
+    }
+    .product_flip{
+        border: 1px solid gainsboro;
+        height: 30px;
+        width: 40%;
+        margin: 0px auto;
+        //margin-top: 62px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+.list_maybeLike{
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 6%;
+    position: relative;
+    h4{
+        padding-left: 9%;
+        text-align: left;
+    }
+    .recomd_product{
+        width: 100%;
+        position: relative;
+        ul{
+            width: 91%;
+            margin: 0px auto;
+            overflow: hidden;
+            padding-left: 0px;
+            position: relative;
+            li{
+                margin-left: 1.1%;
+                width: 30%;
+                display: inline-block;
+                .product_message{
+                    float: left;
+                    margin-top: 4%;
+                    width: 50%;
+                    text-align: center;
+                    h5{
+                        font-size: 20px;
+                    }
+                    .userNum{
+                        font-size: 14px;
+                        color: #bcbbc1;
+                    }
+                    .now_price{
+                        font-size: 18px;
+                        span{
+                            color: #EF4D38;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .product_pic{
+                    float: right;
+                    width: 48%;
+                }
+            }
+            li:nth-child(1){margin: 0px}
+        }
+        .arrow_left{
+            position: absolute;
+            top: 42%;
+            left: 4%;
+            cursor: pointer;
+            display: none;
+        }
+        .arrow_right{
+            position: absolute;
+            top: 42%;
+            right: 5%;
+            cursor: pointer;
+            display: none;
+        }
+    }
+}
+.bottom_advers{
+    margin-top: 3%;
+    margin-bottom: 30px;
+    img{
+        display: block;
+        margin: 0px auto;
+        cursor: pointer;
+    }
+}
+.concat{
+  width: 100%;
+  height: 70px;
+  margin-top: 25px;
+  line-height: 70px;
+  background-color: #4AA3FF;
+  ul{
+      margin: 0px auto;
+      width: 54%;
+      li{
+          margin-left: 11.4%;
+          float: left;
+      }
+  }
+}

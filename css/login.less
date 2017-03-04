@@ -1,0 +1,144 @@
+*{
+  font-family: "Microsoft YaHei";
+  margin: 0px;
+  ul{
+      list-style: none;
+  }
+  a{
+      color: black;
+      text-decoration: none;
+      &:hover{
+          text-decoration: none;
+      }
+  }
+}
+.base{
+  width: 100%;
+  text-align: center;
+}
+.navigator_container{
+  height: 90px;
+  background-color: #f7f9fc;
+  backface-visibility:hidden;
+  .navigator{
+      width: 80%;
+      height: 100%;
+      margin: 0px auto;
+      line-height: 90px;
+      .logo_text{
+          float: left;
+          font-size: 30px;
+          font-family: "RTWSYusGoTrial-ExLight";
+      }
+      ul{
+          margin: 0px auto;
+          //width: 670px;
+          a{
+              font-size: 16px;
+          }
+          li{
+              float: left;
+              margin-left: 34px;
+          }
+      }
+      .account{
+          float: right;
+          a{
+              padding:12px 36px;
+              border-radius: 5px;
+              font-size: 18px;
+          }
+          .signUp{
+              background-color: #49ACFF;
+              color: white;
+              &:hover{
+                  background-color: #0DA4EA;
+              }
+          }
+          .signIn{
+              color: rgb(73,172,255);
+              background-color: white;
+              &:hover{
+                  background-color: whitesmoke;
+              }
+          }
+      }
+  }
+}
+.user_login{
+    //background-image: url("../img/login_bg.png");
+    width: 100%;
+    position: relative;
+    //background-repeat: no-repeat;
+    //background-size: contain;
+    //height: 410px;
+    form{
+        width: 21%;
+        height: 338px;
+        border: 1px solid gainsboro;
+        position: absolute;
+        background-color: white;
+        padding: 0px 20px;
+        right: 8%;
+        top: 10%;
+        div{
+            margin-top: 18px;
+            .login_text{
+                display: inline;
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .login_text+a{
+                font-size: 12px;
+                float: right;
+            }
+            .name_pas{
+                width: 98%;
+                height: 30px;
+            }
+            .code_input{
+                width: 50%;
+                height: 30px;
+            }
+            .get_code{
+                background-color: #49acff;
+                border: solid 1px #dddddd;
+                color: white;
+                padding: 7px 18px;
+                margin-left: 3%;
+            }
+            .forget_pas{
+                font-size: 12px;
+                float: right;
+                color: #49acff;
+            }
+            input[type='submit']{
+                width: 100%;
+                height: 35px;
+                border-radius: 4px;
+                background-color: #49acff;
+                border: none;
+                color: white;
+                font-size: 16px;
+            }
+            input[type='radio']+span{
+                font-size: 12px;
+            }
+        }
+        div:nth-child(1),div:nth-child(5){text-align: left}
+        .other_login{
+            font-size: 12px;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            background-color: #f2f2f2;
+            a{
+                color: #49acff;
+            }
+        }
+    }
+}

@@ -1,0 +1,320 @@
+*{
+    font-family: "Microsoft YaHei";
+    color: black;
+    margin: 0px;
+    button{border: none;}
+    ul{
+        list-style: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.company_common{
+    width: 100%;
+}
+.account{
+    span:nth-child(2){
+        color: #4AA3FF;
+    }
+    span:nth-child(3){
+        cursor: pointer;
+    }
+}
+.route_nav{
+    border: 1px solid transparent;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10%;
+}
+.route_nav a{font-size: 16.4px;color: #2b3e4f;}
+.company_header{
+    height: 110px;
+    .company_login{
+        height: 30px;
+        width: 100%;
+        line-height: 30px;
+        background: #2B3E4F;
+        a{color: white;}
+        p:nth-child(1){margin-left: 10%;}
+        .login_register{
+            float: right;
+            margin: -30px 10% 0px 0px;
+            a{
+                width: 80px;
+                display: inline-block;
+                line-height: 30px;
+                text-align: center;
+                font-size: 12px;
+                background: #49ACFF;
+              &:hover{
+                    background: #49ACFF;
+                }
+            }
+        }
+    }
+}
+.company_container{
+    background-color: #f9f9f9;
+    padding-top: 40px;
+    .company_total{
+        margin: 0px auto;
+        width: 83%;
+        min-height: inherit;
+        position: relative;
+    }
+    .company_content{
+        width: 68%;
+        background-color: white;
+        padding: 20px 30px 0px 30px;
+        .compan_intro{
+            text-align: left;
+            min-height: 210px;
+            letter-spacing: 1px;
+            h3{
+                font-size: 18px;
+                color: #333333;
+            }
+            p{
+                font-size: 14px;
+                color: #666666;
+                margin-top: 30px;
+                line-height: 28px;
+                border-bottom: 1px solid #e8e8e8;
+                padding-bottom: 30px;
+            }
+            ul{
+                height: 50px;
+                line-height: 50px;
+                li{
+                    float: left;
+                    margin-left: 3%;
+                    padding-right: 16px;
+                    border-right: 1px solid #e8e8e8;
+                    img{
+                        vertical-align: middle;
+                    }
+                }
+                li:last-child{border: none}
+            }
+        }
+        .company_product_detail{
+            .product_navbar{
+                height: 60px;
+                line-height: 60px;
+                margin-bottom: 3px;
+                border-bottom: 1px solid gainsboro;
+                li{
+                    margin-left: 58px;
+                    float: left;
+                    &:hover{
+                        border-bottom: 2px solid #4BAEFE;
+                    }
+                    span{
+                        color: #ff6700;
+                    }
+                }
+            }
+            .company_xiangq1{
+                height: 250px;
+                padding: 0px 15px;
+                img{
+                    float: left;
+                    margin-top: 5%;
+                }
+                div{
+                    width: 52%;
+                    float: right;
+                    margin-top: 5%;
+                    h3{
+                        font-size: 22px;
+                        color: #666666;
+                    }
+                    p{
+                        color: #666666;
+                        font-size: 14px;
+                        margin-top: 30px;
+                    }
+                }
+
+            }
+            .company_xiangq2{
+                background-color: #45A8F9;
+                height: 250px;
+                padding: 0px 15px;
+                div{
+                    background-color: #45A8F9;
+                    width: 50%;
+                    float: left;
+                    margin-top: 4%;
+                    h3{
+                        color: white;
+                        font-size: 22px;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: white;
+                        margin-top: 30px;
+                    }
+                }
+                img{
+                    float: right;
+                    margin-top: 7%;
+                }
+            }
+            .product_list{
+                margin-top: 40px;
+                p{
+                    font-size: 22px;
+                    font-weight: bold;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid gainsboro;
+                }
+                table{
+                    thead{
+                        background-color: #e7f4f8;
+                    }
+                    tr{
+                        height: 50px;
+                        td{
+                            border: 1px solid gainsboro;
+                            text-align: center;
+                            color: #666666;
+                        }
+                        th{
+                            border: 1px solid gainsboro;
+                            color: #333333;
+                        }
+                    }
+                }
+            }
+            .comment_detail{
+                margin-top: 30px;
+                .comment_text{
+                    font-size: 22px;
+                    border-bottom: 1px solid #e8e8e8;
+                    padding-bottom: 10px;
+                }
+                table{
+                    tr{
+                        height: 128px;
+                        td{
+                            border-bottom: 1px solid #e8e8e8;
+                            p{
+                                color: #666666;
+                                font-size: 14px;
+                            }
+                            time{
+                                color: #999999;
+                                font-size: 14px;
+                                margin-top: 20px;
+                            }
+                            .phone{
+                                margin-top: 22px;
+                            }
+                        }
+                    }
+                }
+                .comment_flip{
+                    border: 1px solid gainsboro;
+                    width: 28%;
+                    text-align: center;
+                    margin: 0px auto;
+                }
+            }
+            .buy_log{
+                margin-top: 30px;
+                .buy_text{
+                    font-size: 22px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #e8e8e8;
+                }
+                table{
+                    thead{
+                        background-color: #e7f4f8;
+                    }
+                    tr{
+                        height: 50px;
+                        text-align: center;
+                        td,th{
+                            border: 1px solid gainsboro;
+                        }
+                    }
+                }
+                .buy_flip{
+                    border: 1px solid gainsboro;
+                    width: 28%;
+                    text-align: center;
+                    margin: 0px auto;
+                }
+            }
+        }
+    }
+    .company_product_recomd{
+        width: 25%;
+        min-height: 500px;
+        background-color: white;
+        position: absolute;
+        top: 0px;right: 0px;
+        .product_form{
+            padding-left: 8%;
+            padding-bottom: 30px;
+            border-bottom: 1px dashed gainsboro;
+            select{
+                width: 66%;
+            }
+            input[type='radio']{
+                display: none;
+            }
+            div{
+                text-align: left;
+                margin-top: 20px;
+                .model{
+                    padding: 5px 8px;
+                    border: 2px solid #49ACFF;
+                    color: black;
+                }
+                .buy_now{
+                    width: 92%;
+                    height: 35px;
+                    background-color: #ff6700;
+                    color: white;
+                    display: block;
+                    line-height: 35px;
+                    text-align: center;
+                }
+            }
+            .price{
+                span{
+                    color: #ff6700;
+                    font-size: 22px;
+                    font-weight: bold;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .product_recomd{
+            .recomd_text{
+                color: #666666;
+                margin: 20px 0px 0px 20px;
+            }
+            .item{
+                margin-top: 25px;
+                margin-left: 20px;
+                img{vertical-align: bottom;}
+                div{
+                    display: inline-block;
+                    span{color: #666666;font-size: 16px}
+                    p{
+                        color: #bcbbc1;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

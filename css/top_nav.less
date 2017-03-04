@@ -1,0 +1,73 @@
+
+.navigator_container{
+  height: 90px;
+  z-index: 1200;
+  background: #f7f9fc;
+  backface-visibility:hidden;
+  .navigator{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    line-height: 90px;
+    .logo_text{
+      float: left;
+      font-size: 30px;
+      font-family: "RTWSYusGoTrial-ExLight";
+      color: black;
+    }
+    ul{
+      margin: 0px auto;
+      width: 67%;
+      a{
+        font-size: 16px;
+        color: black;
+      }
+      li{
+        float: left;
+        margin-left: 6%;
+      }
+    }
+    .account{
+      float: right;
+      a:nth-child(1){margin-right: 10px;padding:3px 22px;}
+      a:nth-child(2){border: 1px solid #49ACFF;padding:2px 21px;}
+      a{
+        border-radius: 4px;
+        font-size: 16px;
+      }
+      .signUp{
+        background-color: #49ACFF;
+        color: white;
+        &:hover{
+          background-color: #0DA4EA;
+        }
+      }
+      .signIn{
+        color: rgb(73,172,255);
+        background-color: white;
+        &:hover{
+          background-color: whitesmoke;
+        }
+      }
+    }
+    .about_us{
+      background-color: transparent;
+      border: none;
+      color: black;
+      font-size: 16px;
+    }
+  }
+}
+/*
+@media screen and (max-width: 1024px) {
+  .navigator_container{
+    min-width: 0px;
+    .navigator{
+      width: 90%;
+      ul{
+        li{margin-left: 4%;}
+      }
+    }
+  }
+}
+*/

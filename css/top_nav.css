@@ -1,0 +1,78 @@
+.navigator_container {
+  height: 90px;
+  z-index: 1200;
+  background: #f7f9fc;
+  backface-visibility: hidden;
+}
+.navigator_container .navigator {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  line-height: 90px;
+}
+.navigator_container .navigator .logo_text {
+  float: left;
+  font-size: 30px;
+  font-family: "RTWSYusGoTrial-ExLight";
+  color: black;
+}
+.navigator_container .navigator ul {
+  margin: 0px auto;
+  width: 67%;
+}
+.navigator_container .navigator ul a {
+  font-size: 16px;
+  color: black;
+}
+.navigator_container .navigator ul li {
+  float: left;
+  margin-left: 6%;
+}
+.navigator_container .navigator .account {
+  float: right;
+}
+.navigator_container .navigator .account a:nth-child(1) {
+  margin-right: 10px;
+  padding: 3px 22px;
+}
+.navigator_container .navigator .account a:nth-child(2) {
+  border: 1px solid #49ACFF;
+  padding: 2px 21px;
+}
+.navigator_container .navigator .account a {
+  border-radius: 4px;
+  font-size: 16px;
+}
+.navigator_container .navigator .account .signUp {
+  background-color: #49ACFF;
+  color: white;
+}
+.navigator_container .navigator .account .signUp:hover {
+  background-color: #0DA4EA;
+}
+.navigator_container .navigator .account .signIn {
+  color: #49acff;
+  background-color: white;
+}
+.navigator_container .navigator .account .signIn:hover {
+  background-color: whitesmoke;
+}
+.navigator_container .navigator .about_us {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 16px;
+}
+/*
+@media screen and (max-width: 1024px) {
+  .navigator_container{
+    min-width: 0px;
+    .navigator{
+      width: 90%;
+      ul{
+        li{margin-left: 4%;}
+      }
+    }
+  }
+}
+*/

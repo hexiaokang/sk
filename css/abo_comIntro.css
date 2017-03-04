@@ -1,0 +1,283 @@
+* {
+  font-family: "Microsoft YaHei";
+  color: black;
+  margin: 0px;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  color: black;
+  text-decoration: none;
+}
+* a:hover {
+  text-decoration: none;
+}
+.content_common {
+  width: 100%;
+  padding: 70px 0px 0px 0px;
+  text-align: center;
+}
+.content_common .title {
+  font-size: 26px;
+  color: #2b3e4f;
+  font-weight: normal;
+  display: block;
+}
+.content_common .small_title {
+  font-size: 14px;
+  color: #bcbbc1;
+  margin-top: 10px;
+}
+.banner_container {
+  width: 100%;
+  height: auto;
+  background: #F7F9FC;
+}
+.banner_container .route_nav {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 18%;
+  text-align: left;
+}
+.banner_container .route_nav a {
+  color: #7399BC;
+}
+.about_we {
+  text-align: center;
+}
+.about_we div {
+  width: 63%;
+  margin: 0px auto;
+  text-align: left;
+  height: 158px;
+  overflow: hidden;
+  font-size: 18px;
+  color: #aaaaaa;
+}
+.about_we div .open,
+.about_we div .get {
+  color: #0DA4EA;
+  cursor: pointer;
+}
+.service_guarantee {
+  position: relative;
+  min-height: 460px;
+}
+.service_guarantee .service_ul {
+  height: 220px;
+  border: 1px solid transparent;
+}
+.service_guarantee .service_ul ul {
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 101px;
+}
+.service_guarantee .service_ul ul li {
+  float: left;
+  margin-left: 16%;
+}
+.service_guarantee .service_ul ul li p {
+  font-size: 24px;
+  color: #2b3e4f;
+  margin-top: 23px;
+}
+.service_guarantee .response_ul {
+  margin-top: 91px;
+  height: 180px;
+}
+.service_guarantee .response_ul ul {
+  width: 94%;
+  margin: 0px auto;
+}
+.service_guarantee .response_ul ul li {
+  float: left;
+  margin-left: 5%;
+}
+.service_guarantee .more_product {
+  color: #bcbbc1;
+  font-size: 14px;
+  margin-top: 89px;
+}
+.service_guarantee .more_product a {
+  color: #6DA9F8;
+}
+.fan_question {
+  background-image: url("../img/abot_questionbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 520px;
+}
+.fan_question .title,
+.fan_question .small_title {
+  color: white;
+}
+.fan_question .carousel_content {
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+.fan_question .carousel_content .question_content {
+  width: 65%;
+  height: 250px;
+  border: 1px solid gainsboro;
+  margin: 0px auto;
+  text-align: left;
+  border-radius: 12px;
+  background-color: white;
+  padding: 17px 36px;
+  line-height: 25px;
+}
+.fan_question .carousel_content .question_content .question {
+  font-size: 20px;
+  color: #2b3e4f;
+}
+.fan_question .carousel_content .question_content ul {
+  list-style: disc;
+}
+.fan_question .carousel_content .question_content ul li {
+  color: black;
+}
+.fan_question .carousel_content .question_content p {
+  color: #bcbbc1;
+  font-size: 14px;
+}
+.fan_question .carousel_content .question_content p a {
+  color: #49ACFF;
+  font-size: 16px;
+}
+.fan_question .carousel_content .question_content .small_circle {
+  padding: 2px;
+  border-radius: 50%;
+  background-color: #49ACFF;
+  display: inline-block;
+  margin: 0px 5px 3px 5px;
+}
+.fan_question .carousel_content .question_content .good {
+  margin-left: 32%;
+}
+.fan_question .carousel_content .left_question {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 45%;
+  left: -5%;
+  background-image: url("../img/abot_left.png");
+}
+.fan_question .carousel_content .right_question {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 45%;
+  right: -5%;
+  background-image: url("../img/abot_right.png");
+}
+.fan_question .know_more {
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 12px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #49acff;
+}
+.description_sike {
+  min-height: 462px;
+}
+.description_sike .description_content {
+  width: 80%;
+  margin: 0px auto;
+  position: relative;
+}
+.description_sike .description_content ul {
+  width: 100%;
+  margin: 0px auto;
+}
+.description_sike .description_content ul li {
+  float: left;
+  width: 48%;
+  margin-left: 10px;
+}
+.description_sike .description_content ul li .description_text {
+  width: 95.5%;
+  height: 144px;
+  line-height: 24px;
+  text-align: left;
+  padding: 15px;
+  color: #2b3e4f;
+  background-image: url("../img/abot_descri_bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.description_sike .description_content ul li .description_customer {
+  padding: 17px 0px;
+  text-align: left;
+  padding-left: 7%;
+}
+.description_sike .description_content ul li .description_customer .name {
+  display: inline-table;
+  margin-left: 6%;
+}
+.description_sike .description_content ul li .description_customer .name .name_text {
+  color: #2b3e4f;
+  font-size: 16px;
+}
+.description_sike .description_content ul li .description_customer .name .buiness {
+  font-size: 14px;
+  color: #bcbbc1;
+  margin-left: 20px;
+}
+.description_sike .description_content ul li .description_customer .name p {
+  font-size: 14px;
+  color: #4aa3ff;
+}
+.concat_us {
+  background-image: url("../img/abot_getintouch-bg.png");
+  height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.concat_us .title,
+.concat_us .small_title {
+  color: white;
+}
+.concat_us .message_form form div {
+  margin-top: 20px;
+}
+.concat_us .message_form form div input {
+  border-radius: 4px;
+  border: none;
+}
+.concat_us .message_form form div textarea {
+  width: 32.3%;
+  border-radius: 4px;
+  border: none;
+}
+.concat_us .message_form form div input[type=submit] {
+  width: 13%;
+  height: 40px;
+  font-size: 16px;
+  background: #49acff;
+  color: white;
+}
+.concat_us .message_form form .concat_person input,
+.concat_us .message_form form .company input {
+  width: 15%;
+  height: 40px;
+}
+.footer .concat {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #4AA3FF;
+}
+.footer .concat ul {
+  margin: 0px auto;
+  width: 54%;
+}
+.footer .concat ul li {
+  margin-left: 11.4%;
+  float: left;
+}

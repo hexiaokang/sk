@@ -1,0 +1,148 @@
+* {
+  font-family: "Microsoft YaHei";
+  color: black;
+  margin: 0px;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  color: black;
+  text-decoration: none;
+}
+* a:hover {
+  text-decoration: none;
+}
+.sign_container {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  margin-top: 3%;
+}
+.sign_container .sign_nav {
+  border-bottom: 1px solid gainsboro;
+  width: 70%;
+  margin: 0px auto;
+  height: 30px;
+  line-height: 30px;
+}
+.sign_container .sign_nav ul {
+  width: 100%;
+  margin: 0px auto;
+}
+.sign_container .sign_nav ul li {
+  margin-left: 11%;
+  display: inline-block;
+  padding: 0px 30px;
+}
+.sign_container .sign_nav ul li .active_item {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #47AAFF;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+}
+.sign_container .sign_nav ul .active_li {
+  border-bottom: 1px solid #49acff;
+}
+.sign_container .base_message_form {
+  width: 60%;
+  margin: 0px auto;
+  padding-left: 12%;
+}
+.sign_container .base_message_form div {
+  margin-top: 4%;
+  white-space: nowrap;
+}
+.sign_container .base_message_form div .imp_tag {
+  color: red;
+}
+.sign_container .base_message_form div .name_reg {
+  color: red;
+  display: none;
+}
+.sign_container .base_message_form div .name_phone {
+  width: 44%;
+  margin-left: 2.3%;
+  height: 35px;
+}
+.sign_container .base_message_form div .pasw {
+  margin-left: 2%;
+  width: 44%;
+  height: 35px;
+}
+.sign_container .base_message_form div .paws_reg {
+  color: #0DA4EA;
+  display: none;
+}
+.sign_container .base_message_form div .code_input {
+  height: 35px;
+  margin-left: 2.3%;
+  width: 27%;
+}
+.sign_container .base_message_form div button {
+  border: none;
+  padding: 8px 13px;
+  margin-left: 2%;
+  color: white;
+  background-color: #49acff;
+}
+.sign_container .base_message_form div input[type='submit'] {
+  width: 44%;
+  height: 35px;
+  border: none;
+  color: white;
+  margin-left: 11.5%;
+  background-color: #49acff;
+}
+.sign_container .company_message_form {
+  width: 60%;
+  margin: 0px auto;
+  padding-left: 6%;
+  margin-bottom: 5%;
+}
+.sign_container .company_message_form div {
+  margin-top: 4%;
+  white-space: nowrap;
+}
+.sign_container .company_message_form div input[type=text] {
+  width: 44%;
+  height: 35px;
+  margin-left: 2%;
+}
+.sign_container .company_message_form div .title_foTx {
+  margin-left: 2%;
+}
+.sign_container .company_message_form div .imp_tag {
+  color: red;
+}
+.sign_container .company_message_form div select {
+  margin-left: 1.4%;
+  width: 44%;
+  height: 35px;
+}
+.sign_container .company_message_form div .bot_input {
+  margin-left: 12.5%;
+  text-align: center;
+  background-color: #49acff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.sign_container .company_message_form div .server_rule {
+  color: #49acff;
+}
+.sign_container .sign_success {
+  width: 30%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 12%;
+}
+.sign_container .sign_success a {
+  padding: 6px 14px;
+  background: #49acff;
+  color: white;
+}

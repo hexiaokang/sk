@@ -1,0 +1,323 @@
+* {
+  font-family: "Microsoft YaHei";
+  color: black;
+  margin: 0px;
+}
+* button {
+  border: none;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  color: black;
+  text-decoration: none;
+}
+* a:hover {
+  text-decoration: none;
+}
+.company_common {
+  width: 100%;
+}
+.account span:nth-child(2) {
+  color: #4AA3FF;
+}
+.account span:nth-child(3) {
+  cursor: pointer;
+}
+.route_nav {
+  border: 1px solid transparent;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10%;
+}
+.route_nav a {
+  font-size: 16.4px;
+  color: #2b3e4f;
+}
+.company_header {
+  height: 110px;
+}
+.company_header .company_login {
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  background: #2B3E4F;
+}
+.company_header .company_login a {
+  color: white;
+}
+.company_header .company_login p:nth-child(1) {
+  margin-left: 10%;
+}
+.company_header .company_login .login_register {
+  float: right;
+  margin: -30px 10% 0px 0px;
+}
+.company_header .company_login .login_register a {
+  width: 80px;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  background: #49ACFF;
+}
+.company_header .company_login .login_register a:hover {
+  background: #49ACFF;
+}
+.company_container {
+  background-color: #f9f9f9;
+  padding-top: 40px;
+}
+.company_container .company_total {
+  margin: 0px auto;
+  width: 83%;
+  min-height: inherit;
+  position: relative;
+}
+.company_container .company_content {
+  width: 68%;
+  background-color: white;
+  padding: 20px 30px 0px 30px;
+}
+.company_container .company_content .compan_intro {
+  text-align: left;
+  min-height: 210px;
+  letter-spacing: 1px;
+}
+.company_container .company_content .compan_intro h3 {
+  font-size: 18px;
+  color: #333333;
+}
+.company_container .company_content .compan_intro p {
+  font-size: 14px;
+  color: #666666;
+  margin-top: 30px;
+  line-height: 28px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 30px;
+}
+.company_container .company_content .compan_intro ul {
+  height: 50px;
+  line-height: 50px;
+}
+.company_container .company_content .compan_intro ul li {
+  float: left;
+  margin-left: 3%;
+  padding-right: 16px;
+  border-right: 1px solid #e8e8e8;
+}
+.company_container .company_content .compan_intro ul li img {
+  vertical-align: middle;
+}
+.company_container .company_content .compan_intro ul li:last-child {
+  border: none;
+}
+.company_container .company_content .company_product_detail .product_navbar {
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid gainsboro;
+}
+.company_container .company_content .company_product_detail .product_navbar li {
+  margin-left: 58px;
+  float: left;
+}
+.company_container .company_content .company_product_detail .product_navbar li:hover {
+  border-bottom: 2px solid #4BAEFE;
+}
+.company_container .company_content .company_product_detail .product_navbar li span {
+  color: #ff6700;
+}
+.company_container .company_content .company_product_detail .company_xiangq1 {
+  height: 250px;
+  padding: 0px 15px;
+}
+.company_container .company_content .company_product_detail .company_xiangq1 img {
+  float: left;
+  margin-top: 5%;
+}
+.company_container .company_content .company_product_detail .company_xiangq1 div {
+  width: 52%;
+  float: right;
+  margin-top: 5%;
+}
+.company_container .company_content .company_product_detail .company_xiangq1 div h3 {
+  font-size: 22px;
+  color: #666666;
+}
+.company_container .company_content .company_product_detail .company_xiangq1 div p {
+  color: #666666;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.company_container .company_content .company_product_detail .company_xiangq2 {
+  background-color: #45A8F9;
+  height: 250px;
+  padding: 0px 15px;
+}
+.company_container .company_content .company_product_detail .company_xiangq2 div {
+  background-color: #45A8F9;
+  width: 50%;
+  float: left;
+  margin-top: 4%;
+}
+.company_container .company_content .company_product_detail .company_xiangq2 div h3 {
+  color: white;
+  font-size: 22px;
+}
+.company_container .company_content .company_product_detail .company_xiangq2 div p {
+  font-size: 14px;
+  color: white;
+  margin-top: 30px;
+}
+.company_container .company_content .company_product_detail .company_xiangq2 img {
+  float: right;
+  margin-top: 7%;
+}
+.company_container .company_content .company_product_detail .product_list {
+  margin-top: 40px;
+}
+.company_container .company_content .company_product_detail .product_list p {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+.company_container .company_content .company_product_detail .product_list table thead {
+  background-color: #e7f4f8;
+}
+.company_container .company_content .company_product_detail .product_list table tr {
+  height: 50px;
+}
+.company_container .company_content .company_product_detail .product_list table tr td {
+  border: 1px solid gainsboro;
+  text-align: center;
+  color: #666666;
+}
+.company_container .company_content .company_product_detail .product_list table tr th {
+  border: 1px solid gainsboro;
+  color: #333333;
+}
+.company_container .company_content .company_product_detail .comment_detail {
+  margin-top: 30px;
+}
+.company_container .company_content .company_product_detail .comment_detail .comment_text {
+  font-size: 22px;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 10px;
+}
+.company_container .company_content .company_product_detail .comment_detail table tr {
+  height: 128px;
+}
+.company_container .company_content .company_product_detail .comment_detail table tr td {
+  border-bottom: 1px solid #e8e8e8;
+}
+.company_container .company_content .company_product_detail .comment_detail table tr td p {
+  color: #666666;
+  font-size: 14px;
+}
+.company_container .company_content .company_product_detail .comment_detail table tr td time {
+  color: #999999;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.company_container .company_content .company_product_detail .comment_detail table tr td .phone {
+  margin-top: 22px;
+}
+.company_container .company_content .company_product_detail .comment_detail .comment_flip {
+  border: 1px solid gainsboro;
+  width: 28%;
+  text-align: center;
+  margin: 0px auto;
+}
+.company_container .company_content .company_product_detail .buy_log {
+  margin-top: 30px;
+}
+.company_container .company_content .company_product_detail .buy_log .buy_text {
+  font-size: 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.company_container .company_content .company_product_detail .buy_log table thead {
+  background-color: #e7f4f8;
+}
+.company_container .company_content .company_product_detail .buy_log table tr {
+  height: 50px;
+  text-align: center;
+}
+.company_container .company_content .company_product_detail .buy_log table tr td,
+.company_container .company_content .company_product_detail .buy_log table tr th {
+  border: 1px solid gainsboro;
+}
+.company_container .company_content .company_product_detail .buy_log .buy_flip {
+  border: 1px solid gainsboro;
+  width: 28%;
+  text-align: center;
+  margin: 0px auto;
+}
+.company_container .company_product_recomd {
+  width: 25%;
+  min-height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.company_container .company_product_recomd .product_form {
+  padding-left: 8%;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed gainsboro;
+}
+.company_container .company_product_recomd .product_form select {
+  width: 66%;
+}
+.company_container .company_product_recomd .product_form input[type='radio'] {
+  display: none;
+}
+.company_container .company_product_recomd .product_form div {
+  text-align: left;
+  margin-top: 20px;
+}
+.company_container .company_product_recomd .product_form div .model {
+  padding: 5px 8px;
+  border: 2px solid #49ACFF;
+  color: black;
+}
+.company_container .company_product_recomd .product_form div .buy_now {
+  width: 92%;
+  height: 35px;
+  background-color: #ff6700;
+  color: white;
+  display: block;
+  line-height: 35px;
+  text-align: center;
+}
+.company_container .company_product_recomd .product_form .price span {
+  color: #ff6700;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.company_container .company_product_recomd .product_recomd .recomd_text {
+  color: #666666;
+  margin: 20px 0px 0px 20px;
+}
+.company_container .company_product_recomd .product_recomd .item {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.company_container .company_product_recomd .product_recomd .item img {
+  vertical-align: bottom;
+}
+.company_container .company_product_recomd .product_recomd .item div {
+  display: inline-block;
+}
+.company_container .company_product_recomd .product_recomd .item div span {
+  color: #666666;
+  font-size: 16px;
+}
+.company_container .company_product_recomd .product_recomd .item div p {
+  color: #bcbbc1;
+  font-size: 12px;
+}

@@ -1,0 +1,171 @@
+* {
+  font-family: "Microsoft YaHei";
+  color: black;
+  margin: 0px;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  color: black;
+  text-decoration: none;
+}
+* a:hover {
+  text-decoration: none;
+}
+.find_container {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  margin-top: 3%;
+}
+.find_container .find_nav {
+  border-bottom: 1px solid gainsboro;
+  width: 70%;
+  margin: 0px auto;
+  height: 30px;
+  line-height: 30px;
+}
+.find_container .find_nav ul {
+  width: 100%;
+  margin: 0px auto;
+}
+.find_container .find_nav ul li {
+  margin-left: 11%;
+  display: inline-block;
+  padding: 0px 30px;
+}
+.find_container .find_nav ul li .active_item {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #47AAFF;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+}
+.find_container .find_nav ul .active_li {
+  border-bottom: 1px solid #49acff;
+}
+.find_container .first_step {
+  width: 60%;
+  margin: 0px auto;
+  padding-left: 12%;
+}
+.find_container .first_step div {
+  margin-top: 4%;
+  white-space: nowrap;
+}
+.find_container .first_step div .imp_tag {
+  color: red;
+}
+.find_container .first_step div .name_reg {
+  font-size: 12px;
+  color: #f15642;
+  margin-left: 10px;
+}
+.find_container .first_step div .name_reg img {
+  vertical-align: sub;
+}
+.find_container .first_step div .name_phone {
+  width: 44%;
+  margin-left: 2.3%;
+  height: 35px;
+}
+.find_container .first_step div .pasw {
+  margin-left: 2%;
+  width: 44%;
+  height: 35px;
+}
+.find_container .first_step div .paws_reg {
+  color: #0DA4EA;
+  display: none;
+}
+.find_container .first_step div .code_input {
+  height: 35px;
+  margin-left: 2.3%;
+  width: 27%;
+}
+.find_container .first_step div button {
+  border: none;
+  padding: 8px 9px;
+  margin-left: 2%;
+  color: white;
+  background-color: #49acff;
+}
+.find_container .first_step div .verfil_reg {
+  margin-left: 10px;
+  letter-spacing: 1.2px;
+  text-align: left;
+  font-size: 12px;
+  color: #999999;
+}
+.find_container .first_step div .verfil_reg a {
+  font-size: 12px;
+  color: #49acff;
+}
+.find_container .first_step div input[type='submit'] {
+  width: 44%;
+  height: 35px;
+  border: none;
+  color: white;
+  margin-left: 8.5%;
+  background-color: #49acff;
+}
+.find_container .first_step div:nth-child(3) {
+  margin-left: -4.7%;
+}
+.find_container .first_step .rember_pwd {
+  color: #666666;
+  margin: 2% 0px 0px 8.5%;
+}
+.find_container .first_step .rember_pwd a {
+  color: #49acff;
+}
+.find_container .second_step {
+  width: 60%;
+  margin: 0px auto;
+  padding-left: 6%;
+  margin-bottom: 5%;
+}
+.find_container .second_step div {
+  margin-top: 4%;
+  white-space: nowrap;
+}
+.find_container .second_step div input[type=text] {
+  width: 44%;
+  height: 35px;
+  margin-left: 2%;
+}
+.find_container .second_step div .bot_input {
+  margin-left: 11.5%;
+  text-align: center;
+  background-color: #49acff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.find_container .second_step div:nth-child(1) span:nth-child(1) {
+  margin-left: 4%;
+}
+.find_container .find_success {
+  width: 30%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 7%;
+}
+.find_container .find_success p {
+  font-size: 22px;
+  letter-spacing: 2.2px;
+  color: #666666;
+  margin: 19px 0px 39px 0px;
+}
+.find_container .find_success a {
+  padding: 11px 115px;
+  background: #49acff;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  line-height: 44px;
+}

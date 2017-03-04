@@ -1,0 +1,37 @@
+* {
+  font-family: "Microsoft YaHei";
+  color: black;
+  margin: 0px;
+}
+* ul {
+  list-style: none;
+}
+* a {
+  color: black;
+  text-decoration: none;
+}
+* a:hover {
+  text-decoration: none;
+}
+.error_container {
+  width: 100%;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("../img/404_bg.png");
+}
+.error_container .error_content {
+  width: 18%;
+  margin: 0px auto;
+}
+.error_container .error_content p {
+  text-align: left;
+}
+.error_container .error_content .back a {
+  padding: 5px 10px;
+  background: #49acff;
+  border-radius: 4px;
+  color: white;
+  margin-left: 5px;
+}

@@ -1,0 +1,158 @@
+.navigator_container_index {
+  min-width: 0px;
+}
+.navigator_container_index .navigator {
+  width: 90%;
+}
+.navigator_container_index .navigator ul li {
+  margin-left: 4%;
+}
+.sixService_container ul {
+  width: 100%;
+}
+.sixService_container ul li {
+  margin-left: 1%;
+  vertical-align: top;
+}
+.dev_container ul {
+  width: 100%;
+}
+.dev_container ul li {
+  width: 150px;
+}
+.create_container .create_container_pic .cre_big_pic {
+  width: 745px;
+}
+.create_container .create_container_pic .cre_big_pic .cre_left_btn {
+  left: -10%;
+}
+.create_container .create_container_pic .cre_big_pic .cre_right_btn {
+  right: -10%;
+}
+.repertory_container .repertory_pic {
+  width: 1000px;
+}
+.repertory_container .repertory_pic .repertory_box {
+  width: 876px;
+}
+.repertory_container .repertory_pic .repertory_box .repertory_pic_ul {
+  width: 1984px;
+}
+.repertory_container .repertory_pic .repertory_box .repertory_pic_ul li {
+  width: 200px;
+}
+.repertory_container .repertory_pic .repertory_box .repertory_pic_ul li img {
+  width: 200px;
+  height: 215px;
+}
+.repertory_container .repertory_pic .repertory_box .repertory_pic_ul li .modal_cont {
+  width: 200px;
+  height: 215px;
+}
+.seal_container .seal_pic ul {
+  width: 100%;
+}
+.seal_container .seal_pic ul li {
+  width: 165px;
+  margin-left: 2.2%;
+}
+.customer_ser_container .customer_left {
+  left: 2%;
+}
+.customer_ser_container .customer_right {
+  right: 2%;
+}
+.customer_ser_container .customer_ser_pic {
+  height: 443px;
+}
+.customer_ser_container .customer_ser_pic .customer_ser_pic_ul {
+  width: 1003px;
+  height: 420px;
+}
+.customer_ser_container .customer_ser_pic .customer_ser_pic_ul li {
+  width: 200px;
+}
+.customer_ser_container .customer_ser_pic .customer_ser_pic_ul li img {
+  width: 200px;
+  height: 210px;
+}
+.customer_ser_container .customer_ser_pic .customer_ser_pic_ul li div {
+  width: 200px;
+  height: 210px;
+  padding-top: 1px;
+}
+.customer_ser_container .customer_ser_pic .customer_ser_pic_ul li div p {
+  height: 112px;
+}
+.energy_eff_cont .energy_eff_pic {
+  width: 750px;
+}
+.energy_eff_cont .energy_eff_pic .energy_left {
+  left: 5%;
+}
+.energy_eff_cont .energy_eff_pic .energy_right {
+  right: 5%;
+}
+.footer .footer_content .first_ul {
+  width: 100%;
+}
+.footer .footer_content .first_ul li {
+  margin-left: 0px;
+}
+.base {
+  min-width: 0px;
+}
+.navigator_container .navigator {
+  width: 95%;
+}
+.list_three_video ul {
+  width: 95%;
+}
+img {
+  max-width: 100%;
+}
+.list_product .product_container .view_list_ul li .product_description {
+  width: 54%;
+}
+.company_container .company_total .company_content .company_product_detail .product_navbar {
+  margin-top: 60px;
+}
+.company_container .company_total .company_content .company_product_detail .product_navbar li {
+  margin-left: 50px;
+}
+.sign_container .base_message_form form div input {
+  border: 1px solid #A9A9A9;
+}
+.sign_container .base_message_form form div:nth-child(5) input {
+  width: 22%;
+}
+.sign_container .base_message_form form div:nth-child(6) input {
+  margin-left: 14.5%;
+}
+.user_login form {
+  height: 300px;
+  top: 3%;
+}
+.user_login form div {
+  margin-top: 14px;
+}
+.user_login form div input[type='text'] {
+  border: 1px solid #A9A9A9;
+}
+.user_login form div:nth-child(4) .code_input {
+  width: 40%;
+}
+.user_login form div:nth-child(4) .get_code {
+  padding: 7px 10px;
+}
+.service_guarantee .response_ul ul li {
+  width: 21.5%;
+  margin-left: 2%;
+}
+.news_container .news_total .news_nav .new_notice ul li div {
+  width: 61%;
+}
+.news_container .news_total .news_nav .tag div span {
+  padding: 4px;
+  font-size: 13px;
+}

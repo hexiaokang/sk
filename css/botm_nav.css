@@ -1,0 +1,176 @@
+.footer {
+  position: relative;
+}
+.footer a {
+  color: white;
+  font-size: 14px;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+.footer .offset_modal {
+  width: 100%;
+  height: 180px;
+  background: rgba(51, 51, 51, 0.3);
+  position: absolute;
+  top: -42.5%;
+  display: none;
+}
+.footer .concat {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  display: none;
+  background-color: #4AA3FF;
+}
+.footer .concat ul {
+  margin: 0px auto;
+  width: 54%;
+  border: 1px solid transparent;
+}
+.footer .concat ul li {
+  margin-left: 11.4%;
+  float: left;
+  position: relative;
+  cursor: pointer;
+}
+.footer .concat ul li .concat_mesg {
+  position: absolute;
+  width: 475px;
+  height: 123px;
+  top: -201%;
+}
+.footer .concat ul li .concat_mesg p {
+  color: white;
+}
+.footer .concat ul li .wechat_mesg div,
+.footer .concat ul li .weibo_mesg div {
+  text-align: left;
+  width: 74%;
+  float: right;
+  line-height: 28px;
+  color: white;
+  padding-left: 14px;
+}
+.footer .concat ul li .wechat_mesg div p:nth-child(1),
+.footer .concat ul li .weibo_mesg div p:nth-child(1) {
+  font-size: 26px;
+}
+.footer .concat ul li .wechat_mesg div p:nth-child(2),
+.footer .concat ul li .weibo_mesg div p:nth-child(2) {
+  font-size: 16px;
+}
+.footer .concat ul li .qq_message {
+  left: -682%;
+  color: white;
+  text-align: center;
+}
+.footer .concat ul li .qq_message button {
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #49acff;
+  border: none;
+  line-height: 40px;
+  font-size: 16px;
+}
+.footer .concat ul li .ph_message {
+  width: 913px;
+  left: -2104%;
+  line-height: 23px;
+  color: white;
+}
+.footer .concat ul li .ph_message ul {
+  width: 120%;
+}
+.footer .concat ul li .ph_message ul li {
+  float: left;
+  text-align: center;
+}
+.footer .concat ul li .ph_message ul li p {
+  font-size: 18px;
+}
+.footer .concat ul li .ph_message ul li p:nth-child(1) {
+  font-size: 26px;
+}
+.footer .concat ul li .mail_mesg {
+  width: 200px;
+  left: -457%;
+  text-align: right;
+  line-height: 36px;
+  color: white;
+}
+.footer .concat ul li .mail_mesg P:nth-child(1) {
+  font-size: 26px;
+}
+.footer .concat ul li .mail_mesg img {
+  margin-top: -10%;
+}
+.footer .concat ul li .mail_mesg P:nth-child(2) {
+  font-size: 18px;
+  margin-top: -20%;
+}
+.footer .footer_content {
+  width: 100%;
+  height: 300px;
+  background-color: #313439;
+  padding: 30px 0px;
+  border-bottom: 2px solid #494949;
+}
+.footer .footer_content .first_ul {
+  margin: 0px auto;
+  width: 90%;
+  padding-left: 0px;
+}
+.footer .footer_content .first_ul > li {
+  margin-left: 1.7%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer .footer_content .item > li {
+  margin-top: 10px;
+}
+.footer .footer_content .item > li .title_text {
+  font-size: 16px;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.8px;
+}
+.footer .footer_content .item > li a {
+  color: #bcbbc1;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.7px;
+}
+.footer .copyRight {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #313439;
+}
+.footer .copyRight a {
+  color: #bcbbc1;
+  font-size: 14px;
+  border-left: 1px solid #bcbbc1;
+  padding: 0px 7px 0px 12px;
+}
+.footer .copyRight a:nth-child(1) {
+  border: none;
+}
+.base {
+  min-width: 1260px;
+}
+@font-face {
+  font-family: 'RTWSYusGoTrial-ExLight';
+  src: url('myfont/RTWSYueGoTrial-ExLight.ttf');
+}
+@font-face {
+  font-family: 'MicrosoftYaheiLight';
+  src: url('myfont/MicrosoftYaheiLight.ttc');
+}

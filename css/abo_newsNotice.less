@@ -1,0 +1,171 @@
+*{
+    font-family: "Microsoft YaHei";
+    color: black;
+    margin: 0px;
+    ul{
+        list-style: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.banner_container{
+    width: 100%;
+    height: auto;
+}
+.news_container{
+    width: 100%;
+    //height: 1200px;
+    position: relative;
+    padding-top: 2%;
+    background-color: #eef3fa;
+    .route_nav{
+        padding-left: 10%;
+        a{
+            color: #7399BC;
+        }
+    }
+    .news_total{
+        width: 80%;
+        margin: 0px auto;
+        position: relative;
+        .news_nav{
+            width: 25%;
+            background: #F7F9FC;
+            position: relative;
+            background: #eef3fa;
+            .new_notice{
+                width: 100%;
+                background: white;
+                padding: 10px 0px 0px 10px;
+                ul{
+                    padding-left: 0px;
+                    padding: 10px 0px 0px 10px;
+                    li{
+                        padding: 10px 0px;
+                        border-bottom: 1px solid gainsboro;
+                        div{
+                            width: 64%;
+                            float: right;
+                        }
+                    }
+                }
+            }
+            .tag{
+                width: 100%;
+                padding-bottom: 20px;
+                margin-top: 20px;
+                background: white;
+                padding: 10px 10px 30px 10px;
+                div{
+                    margin-top: 20px;
+                    span{
+                        padding: 6px 12px;
+                        margin-left: 5%;
+                        color: black;
+                        font-size: 14px;
+                        background: #DBEEFF;
+                        border: 1px solid #76C0FF;
+                    }
+                    .add{
+                        border: 1px dashed #CCCBD0;
+                        background: white;
+                        padding: 6px 18px;
+                        color: #CCCBD0;
+                        cursor: pointer;
+                    }
+                    .recomd_tag{
+                        border: none;
+                        background: #EBEAEC;
+                    }
+                }
+                .search{
+                    width: 90%;
+                    margin: 0px auto;
+                    margin-top: 16px;
+                    border: 1px solid #49ACFF;
+                    input{
+                        border: none;
+                        height: 26px;
+                        width: 72%;
+                    }
+                    button{
+                        padding: 3px 17px;
+                        border: none;
+                        background: #49ACFF;
+                        color: white;
+                    }
+                }
+                div:last-child{a{
+                    float: right;
+                    margin-right: 12px;
+                    color: #95CBFF;
+                }}
+            }
+        }
+        .news_content{
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            width: 72%;
+            background: #eef3fa;
+            .content_item{
+                .picture{
+                    width: 100%;
+                    height: 340px;
+                }
+                .text{
+                    padding: 0px 13px;
+                    h3{
+                        display: inline;
+                        font-size: 16px;
+                        color: #2b3e4f;
+                    }
+                    time{
+                        margin-left: 54%;
+                    }
+                    .artile{
+                        font-size: 14px;
+                        color: #bcbbc1;
+                    }
+                    .read_more{
+                        position: absolute;
+                        right: 8%;
+                        bottom: -7%;
+                        font-size: 16px;
+                        background: white;
+                        width: 130px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 19.5px;
+                        border: solid 1px #bcbbc1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.footer{
+    .concat{
+        width: 100%;
+        height: 70px;
+        line-height: 70px;
+        border: 1px solid transparent;
+        background-color: #4AA3FF;
+        ul{
+            margin: 0px auto;
+            width: 54%;
+            li{
+                margin-left: 11.4%;
+                float: left;
+            }
+        }
+    }
+}
